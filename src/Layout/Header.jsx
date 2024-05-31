@@ -1,7 +1,7 @@
 import img from "..//Image/arrow.gif";
 export const Header = () => {
   return (
-    <div className="max-w-[1300] h-screen bg-black">
+    <div className="max-w-[1300] h-screen bg-black px-40">
       <div
         className="flex justify-end gap-11
         "
@@ -27,7 +27,7 @@ export const Header = () => {
             MASTERY
           </div>
         </div>
-        <button className="text-white font-bold text-xl bg-[#d86628] h-14 w-32 mt-4 me-5 rounded-sm">
+        <button className="text-white font-bold text-xl fixed bg-[#d86628] shadow-lg shadow-black  h-14 w-32 mt-4   rounded-sm">
           Apply
         </button>
       </div>

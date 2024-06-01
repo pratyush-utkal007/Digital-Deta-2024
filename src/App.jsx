@@ -3,14 +3,17 @@ import About from "./Pages/About";
 import Academy from "./Pages/Academy";
 import AccordionPage from "./Pages/AccordionPage";
 import Founder from "./Pages/Founder";
+import Welcome from "./Pages/Welcome";
 
 function App() {
   return (
     <>
       <Header />
       <Founder />
+      <Academy />
+      <Welcome />
+      <About />
       <AccordionPage />
-   
     </>
   );
 }

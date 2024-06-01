@@ -12,4 +12,4 @@ People who wanna make a living making things.</p></div>
   )
 }
 
-export default Welcome
+export default Welcome;

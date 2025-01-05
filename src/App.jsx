@@ -10,8 +10,8 @@ function App() {
     <>
       <Header />
       <Founder />
-      <Academy />
       <Welcome />
+      <Academy />
       <About />
       <AccordionPage />
     </>

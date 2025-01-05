@@ -3,8 +3,8 @@ export const Header = () => {
   return (
     <div className="max-w-[1300] h-screen bg-black px-40">
       <div
-        className="flex justify-end gap-11
-        "
+        className="flex justify-around gap-11 
+          "
       >
         <img
           src="https://theacademy.goodbysilverstein.com/public/theme/images/logo-gsp.png"
@@ -27,13 +27,13 @@ export const Header = () => {
             MASTERY
           </div>
         </div>
-        <button className="text-white font-bold text-xl fixed bg-[#d86628] shadow-lg shadow-black  h-14 w-32 mt-4   rounded-sm">
+        <button className="text-white font-bold text-xl fixed z-50 bg-[#d86628] shadow-lg shadow-black text  h-14 w-32 mt-4 rounded-sm ms-[90%] ">
           Apply
         </button>
       </div>
       <div className="flex justify-center">
         <img className="h-52 " src={img} alt="" />
-        <div className=" font-serif text-3xl mt-9 text-[#d86628]">
+        <div className=" font-serif text-3xl mt-9 text-[rgb(216,102,40)]">
           <div>Join </div>
           <div>The Community </div>
           <div>Of Learners.</div>
